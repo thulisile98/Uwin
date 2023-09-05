@@ -1,0 +1,83 @@
+.main{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: transparent url('Assets/Background\ image.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+   
+
+.main-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: calc(50% + 100px);
+    transform: translate(-50%, -50%);
+    width: 1264px;
+    height: 589px;
+    background: 
+        url('Assets/Gray Dash Boarder.png') 0% 0% no-repeat padding-box,
+        url('Assets/Gold Outline.png')  -15px 0% no-repeat padding-box;
+
+    opacity: 1;
+    top: 340px;
+}
+
+.main-glow {
+    position: absolute;
+    top: 204px;
+    left: 282px;
+    width: 1357px;
+    height: 673px;
+    background: transparent url('Assets/Dashboard Background Glow.png') 0 0 no-repeat padding-box;
+    opacity: 1;
+  
+}
+
+.Gage-left {
+    position: absolute;
+    top: 100px; /* Adjust the top position to move it down */
+    left: 90px; /* Adjust the right position to move it to the right */
+    width: 341px;
+    height: 331px;
+    background: transparent url('') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Gage-right {
+    position: absolute;
+    top: 100px; /* Adjust the top position to move it down */
+    right: 130px; /* Adjust the right position to move it further to the right */
+    width: 341px;
+    height: 331px;
+    background: transparent url('Assets/KIP Gage.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.right{
+
+    top: 336px;
+    left: 430px;
+    width: 374px;
+    height: 375px;
+    background: transparent url('Assets/Background\ Gage\ Left.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.left{
+    top: 336px;
+    left: 430px;
+    width: 374px;
+    height: 375px;
+    /* UI Properties */
+    background: transparent url('Assets/Background\ Gage\ Left.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+
+
